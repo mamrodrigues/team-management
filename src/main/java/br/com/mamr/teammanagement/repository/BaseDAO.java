@@ -1,4 +1,4 @@
-package br.com.mamr.teammanagement.dao;
+package br.com.mamr.teammanagement.repository;
 
 import java.util.List;
 

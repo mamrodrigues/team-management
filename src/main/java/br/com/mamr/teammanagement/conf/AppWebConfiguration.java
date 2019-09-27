@@ -16,8 +16,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 import br.com.mamr.teammanagement.controller.TeamController;
-import br.com.mamr.teammanagement.dao.TeamDAO;
 import br.com.mamr.teammanagement.infra.FileSaver;
+import br.com.mamr.teammanagement.repository.TeamDAO;
 
 @EnableWebMvc
 @ComponentScan(basePackageClasses= {TeamController.class, TeamDAO.class, FileSaver.class})

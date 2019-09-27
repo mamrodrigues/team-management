@@ -16,9 +16,9 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import br.com.mamr.teammanagement.dao.TeamDAO;
+import br.com.mamr.teammanagement.domain.Team;
 import br.com.mamr.teammanagement.infra.FileSaver;
-import br.com.mamr.teammanagement.model.Team;
+import br.com.mamr.teammanagement.repository.TeamDAO;
 import br.com.mamr.teammanagement.validation.TeamValidation;
 
 @Controller

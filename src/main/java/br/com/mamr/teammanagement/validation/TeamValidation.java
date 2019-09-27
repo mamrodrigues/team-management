@@ -4,7 +4,7 @@ import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
-import br.com.mamr.teammanagement.model.Team;
+import br.com.mamr.teammanagement.domain.Team;
 
 public class TeamValidation implements Validator{
 

@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.com.mamr.teammanagement.dao.PlayerDAO;
-import br.com.mamr.teammanagement.model.Player;
+import br.com.mamr.teammanagement.domain.Player;
+import br.com.mamr.teammanagement.repository.PlayerDAO;
 
 @Controller
 @RequestMapping("/players")

@@ -1,4 +1,4 @@
-package br.com.mamr.teammanagement.model;
+package br.com.mamr.teammanagement.domain;
 
 public enum Sport {
 	

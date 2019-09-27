@@ -1,9 +1,9 @@
-package br.com.mamr.teammanagement.dao;
+package br.com.mamr.teammanagement.repository;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.mamr.teammanagement.model.Coach;
+import br.com.mamr.teammanagement.domain.Coach;
 
 @Repository
 @Transactional
